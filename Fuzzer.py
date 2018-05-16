@@ -30,6 +30,7 @@ while len(word_list)!=zero2 and len(wp_sites)!=zero:
         print(r.status_code)
         if r.status_code==200:
             print("file found {} ".format(url))
+            # remove lines if you want to download file as zip
             # with open("r{} .zip".format(url2), "wb") as code:
             #     code.write(r.content)
     except:
